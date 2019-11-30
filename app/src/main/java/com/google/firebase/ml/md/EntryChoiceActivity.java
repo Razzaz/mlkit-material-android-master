@@ -92,7 +92,7 @@ public class EntryChoiceActivity extends AppCompatActivity {
             AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
             setContentView(R.layout.activity_entry_choice);
 
-            button = (Button) findViewById(R.id.buttonGo);
+            button = findViewById(R.id.buttonGo);
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
