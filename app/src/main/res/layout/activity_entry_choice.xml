@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="google-sans"
+      android:gravity="center_horizontal"
+      android:paddingTop="@dimen/home_page_title_padding_top"
+      android:paddingBottom="@dimen/home_page_title_padding_bottom"
+      android:text="Welcome"
+      android:textColor="#00B896"
+      android:textSize="@dimen/home_page_title_size" />
+
+  <Button
+      android:id="@+id/buttonGo"
+      android:layout_width="121dp"
+      android:layout_height="80dp"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="144dp"
+      android:layout_marginTop="303dp"
+      android:layout_marginBottom="336dp"
+      android:backgroundTint="@color/colorPrimaryDark"
+      android:text="Go" />
+
+
+</RelativeLayout>
+bm  <TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:fontFamily="google-sans"
+android:gravity="center_horizontal"
+android:paddingTop="@dimen/home_page_title_padding_top"
+android:paddingBottom="@dimen/home_page_title_padding_bottom"
+android:text="Welcome"
+android:textColor="#00B896"
+android:textSize="@dimen/home_page_title_size" />y

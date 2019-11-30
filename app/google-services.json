@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756823254526",
+    "firebase_url": "https://tapak-6ca17.firebaseio.com",
+    "project_id": "tapak-6ca17",
+    "storage_bucket": "tapak-6ca17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756823254526:android:0291c54739a02c2358ccaf",
+        "android_client_info": {
+          "package_name": "com.google.firebase.ml.md"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756823254526-0guofumoa79etem25uamo2u3jv147q6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.ml.md",
+            "certificate_hash": "bc3fe6436d348879ed746349456a46c73ff6b70e"
+          }
+        },
+        {
+          "client_id": "756823254526-4i18dq4lk8kl6dbk4trki832v0qi86ef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1kJ36jPyzcN1VmFUluG_AHFQVXGz0sOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756823254526-4i18dq4lk8kl6dbk4trki832v0qi86ef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

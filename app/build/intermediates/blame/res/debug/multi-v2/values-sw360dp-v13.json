@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\e12e8430f74181c8bf4b329adb691d78\\jetified-firebase-ui-auth-4.3.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,186,247,302,356,414",
+                        "endColumns": "69,60,60,54,53,57,56",
+                        "endOffsets": "120,181,242,297,351,409,466"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "127,197,258,319,374,428,486",
+                        "endColumns": "69,60,60,54,53,57,56",
+                        "endOffsets": "192,253,314,369,423,481,538"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\bd58f75e6ca66e78b45415d4c859994a\\preference-1.0.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,127",
+                        "endColumns": "71,64",
+                        "endOffsets": "122,187"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,543",
+                        "endColumns": "71,64",
+                        "endOffsets": "122,603"
+                    }
+                }
+            ]
+        }
+    ]
+}

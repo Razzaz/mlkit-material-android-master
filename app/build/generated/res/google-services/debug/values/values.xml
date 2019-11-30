@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">756823254526-4i18dq4lk8kl6dbk4trki832v0qi86ef.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tapak-6ca17.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">756823254526</string>
+    <string name="google_api_key" translatable="false">AIzaSyD1kJ36jPyzcN1VmFUluG_AHFQVXGz0sOc</string>
+    <string name="google_app_id" translatable="false">1:756823254526:android:0291c54739a02c2358ccaf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD1kJ36jPyzcN1VmFUluG_AHFQVXGz0sOc</string>
+    <string name="google_storage_bucket" translatable="false">tapak-6ca17.appspot.com</string>
+    <string name="project_id" translatable="false">tapak-6ca17</string>
+</resources>

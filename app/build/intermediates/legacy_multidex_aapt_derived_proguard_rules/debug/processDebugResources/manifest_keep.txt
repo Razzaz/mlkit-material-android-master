@@ -1,0 +1,4 @@
+# Referenced at D:\tapak\v0.0.1\mlkit-material-android-master\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:26
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at D:\tapak\v0.0.1\mlkit-material-android-master\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:26
+-keep class androidx.multidex.MultiDexApplication { <init>(); }
