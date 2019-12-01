@@ -48,44 +48,6 @@ public class EntryChoiceActivity extends AppCompatActivity {
     private static final String TAG = "EntryChoiceActivity";
     private Button button;
 
-//    private FirebaseFirestore db = FirebaseFirestore.getInstance();
-//    public void addToFirestore() {
-//        Map<String, Object> user = new HashMap<>();
-//        user.put("first", "Ada");
-//        user.put("last", "Lovelace");
-//        user.put("born", 1815);
-//
-//        // Add a new document with a generated ID
-//        db.collection("users")
-//                .add(user)
-//                .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-//                    @Override
-//                    public void onSuccess(DocumentReference documentReference) {
-//                        Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
-//                    }
-//                })
-//                .addOnFailureListener(new OnFailureListener() {
-//                    @Override
-//                    public void onFailure(@NonNull Exception e) {
-//                        Log.w(TAG, "Error adding document", e);
-//                    }
-//                });
-//    }
-    // add this line for git test
-
-//    private enum EntryMode {
-//        ENTRY_JAVA(R.string.entry_java_title, R.string.entry_java_subtitle);
-//        //ENTRY_KOTLIN(R.string.entry_kotlin_title, R.string.entry_kotlin_subtitle);
-//
-//        private final int titleResId;
-//        private final int subtitleResId;
-//
-//        EntryMode(int titleResId, int subtitleResId) {
-//            this.titleResId = titleResId;
-//            this.subtitleResId = subtitleResId;
-//        }
-//    }
-//
         @Override
         protected void onCreate(@Nullable Bundle bundle) {
             super.onCreate(bundle);
@@ -106,56 +68,4 @@ public class EntryChoiceActivity extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
-//
-//    private class EntryItemAdapter extends RecyclerView.Adapter<EntryItemAdapter.EntryItemViewHolder> {
-//
-//        private final EntryMode[] entryModes;
-//
-//        EntryItemAdapter(EntryMode[] entryModes) {
-//            this.entryModes = entryModes;
-//        }
-//
-//        @NonNull
-//        @Override
-//        public EntryItemViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-//            return new EntryItemViewHolder(
-//                    LayoutInflater.from(parent.getContext())
-//                            .inflate(R.layout.entry_item, parent, false));
-//        }
-//
-//        @Override
-//        public void onBindViewHolder(@NonNull EntryItemViewHolder entryItemViewHolder, int position) {
-//            entryItemViewHolder.bindEntryMode(entryModes[position]);
-//        }
-//
-//        @Override
-//        public int getItemCount() {
-//            return entryModes.length;
-//        }
-//
-//        private class EntryItemViewHolder extends RecyclerView.ViewHolder {
-//
-//            private final TextView titleView;
-//            private final TextView subtitleView;
-//
-//            EntryItemViewHolder(@NonNull View view) {
-//                super(view);
-//                titleView = view.findViewById(R.id.entry_title);
-//                subtitleView = view.findViewById(R.id.entry_subtitle);
-//            }
-//
-//            void bindEntryMode(EntryMode entryMode) {
-//                titleView.setText(entryMode.titleResId);
-//                subtitleView.setText(entryMode.subtitleResId);
-//                itemView.setOnClickListener(view -> {
-//                    Activity activity = EntryChoiceActivity.this;
-//                    //switch (entryMode) {
-//                    //  case ENTRY_JAVA:
-//                        activity.startActivity(new Intent(activity, MainActivity.class));
-//                    //    break;
-//                    //}
-//                });
-//            }
-//        }
-//    }
 }

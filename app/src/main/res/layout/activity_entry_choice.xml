@@ -2,40 +2,31 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
-  <TextView
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:fontFamily="google-sans"
-      android:gravity="center_horizontal"
-      android:paddingTop="@dimen/home_page_title_padding_top"
-      android:paddingBottom="@dimen/home_page_title_padding_bottom"
-      android:text="Welcome"
-      android:textColor="#00B896"
-      android:textSize="@dimen/home_page_title_size" />
+    android:orientation="vertical"
+    android:background="#dfe0e0">
 
   <Button
       android:id="@+id/buttonGo"
-      android:layout_width="121dp"
-      android:layout_height="80dp"
+      android:layout_width="113dp"
+      android:layout_height="67dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentBottom="true"
       android:layout_centerHorizontal="true"
-      android:layout_centerVertical="true"
       android:layout_marginStart="144dp"
-      android:layout_marginTop="303dp"
-      android:layout_marginBottom="336dp"
-      android:backgroundTint="@color/colorPrimaryDark"
+      android:layout_marginTop="626dp"
+      android:layout_marginBottom="38dp"
+      android:backgroundTint="#dfe0e0"
       android:text="Go" />
 
+  <!--  <TextView-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:fontFamily="google-sans"-->
+<!--      android:gravity="center_horizontal"-->
+<!--      android:paddingTop="@dimen/home_page_title_padding_top"-->
+<!--      android:paddingBottom="@dimen/home_page_title_padding_bottom"-->
+<!--      android:text="Welcome"-->
+<!--      android:textColor="#00B896"-->
+<!--      android:textSize="@dimen/home_page_title_size" />-->
 
 </RelativeLayout>
-bm  <TextView
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:fontFamily="google-sans"
-android:gravity="center_horizontal"
-android:paddingTop="@dimen/home_page_title_padding_top"
-android:paddingBottom="@dimen/home_page_title_padding_bottom"
-android:text="Welcome"
-android:textColor="#00B896"
-android:textSize="@dimen/home_page_title_size" />y

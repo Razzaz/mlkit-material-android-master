@@ -24,16 +24,20 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.chip.Chip;
 import com.google.common.base.Objects;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.ml.md.R;
 import com.google.firebase.ml.md.java.camera.GraphicOverlay;
@@ -60,11 +64,9 @@ public class LiveBarcodeScanningActivity extends AppCompatActivity implements On
   public void addToFirestore(String value) {
     Map<String, Object> user = new HashMap<>();
     user.put("result", value);
-    //user.put("last", "Lovelace");
-    //user.put("born", 1815);
 
     // Add a new document with a generated ID
-    db.collection("users").document("tapackData")
+    db.collection("users").document("ridhogani")
             .set(user)
             .addOnSuccessListener(new OnSuccessListener<Void>() {
               @Override
@@ -78,6 +80,25 @@ public class LiveBarcodeScanningActivity extends AppCompatActivity implements On
                 Log.w(TAG, "Error adding document", e);
               }
             });
+  }
+  public void getDocument() {
+    DocumentReference docRef = db.collection("users").document("tapackData");
+    docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+      @Override
+      public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+        if (task.isSuccessful()) {
+          DocumentSnapshot document = task.getResult();
+          if (document.exists()) {
+            Log.d(TAG, "DocumentSnapshot data: " + document.getData());
+            Toast.makeText(LiveBarcodeScanningActivity.this, "Package has gone!", Toast.LENGTH_SHORT).show();
+          } else {
+            Log.d(TAG, "No such document");
+          }
+        } else {
+          Log.d(TAG, "get failed with ", task.getException());
+        }
+      }
+    });
   }
 
   private CameraSource cameraSource;
@@ -248,6 +269,7 @@ public class LiveBarcodeScanningActivity extends AppCompatActivity implements On
             String rawValue = barcode.getRawValue();
 
             addToFirestore(barcode.getRawValue());
+            getDocument();
             barcodeFieldList.add(new BarcodeField("Raw Value", rawValue));
             int valueType = barcode.getValueType();
             switch (valueType) {

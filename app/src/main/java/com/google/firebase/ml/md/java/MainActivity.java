@@ -43,32 +43,6 @@ import java.util.Map;
 /** Entry activity to select the detection mode. */
 public class MainActivity extends AppCompatActivity {
 
-//  private static final String TAG = "MainActivity";
-//
-//  private FirebaseFirestore db = FirebaseFirestore.getInstance();
-//  public void addAdaLovelace() {
-//    Map<String, Object> user = new HashMap<>();
-//    user.put("first", "Ada");
-//    user.put("last", "Lovelace");
-//    user.put("born", 1815);
-//
-//    // Add a new document with a generated ID
-//    db.collection("users")
-//            .add(user)
-//            .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-//              @Override
-//              public void onSuccess(DocumentReference documentReference) {
-//                Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
-//              }
-//            })
-//            .addOnFailureListener(new OnFailureListener() {
-//              @Override
-//              public void onFailure(@NonNull Exception e) {
-//                Log.w(TAG, "Error adding document", e);
-//              }
-//            });
-//  }
-
   private enum DetectionMode {
     //ODT_LIVE(R.string.mode_odt_live_title, R.string.mode_odt_live_subtitle),
     //ODT_STATIC(R.string.mode_odt_static_title, R.string.mode_odt_static_subtitle),
@@ -161,12 +135,6 @@ public class MainActivity extends AppCompatActivity {
             view -> {
               Activity activity = MainActivity.this;
               switch (detectionMode) {
-//                case ODT_LIVE:
-//                  activity.startActivity(new Intent(activity, LiveObjectDetectionActivity.class));
-//                  break;
-//                case ODT_STATIC:
-//                  Utils.openImagePicker(activity);
-//                  break;
                 case BARCODE_LIVE:
                   activity.startActivity(new Intent(activity, LiveBarcodeScanningActivity.class));
                   break;
