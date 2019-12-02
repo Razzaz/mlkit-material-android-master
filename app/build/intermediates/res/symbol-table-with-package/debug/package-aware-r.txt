@@ -50,6 +50,8 @@ animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 animator search_button_enter
 animator static_image_dot_enter
+array array_dot_active
+array array_dot_inactive
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -840,6 +842,9 @@ color barcode_field_box_stroke
 color barcode_field_value
 color barcode_reticle_background
 color barcode_reticle_stroke
+color bg_slider_screen1
+color bg_slider_screen2
+color bg_slider_screen3
 color black
 color bounding_box_gradient_end
 color bounding_box_gradient_start
@@ -917,6 +922,12 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color dot_active_screen1
+color dot_active_screen2
+color dot_active_screen3
+color dot_inactive_screen1
+color dot_inactive_screen2
+color dot_inactive_screen3
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -1123,6 +1134,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen barcode_bottom_sheet_padding_vertical
 dimen barcode_field_label_padding
@@ -1156,6 +1169,7 @@ dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen default_dimension
+dimen desc_padding
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -1205,6 +1219,9 @@ dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen divider_height
+dimen dots_height
+dimen dots_margin_bottom
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1236,6 +1253,7 @@ dimen home_page_mode_item_title_size
 dimen home_page_title_padding_bottom
 dimen home_page_title_padding_top
 dimen home_page_title_size
+dimen img_width_height
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -1443,6 +1461,8 @@ dimen product_item_title_size
 dimen search_button_margin_bottom
 dimen search_button_text_size
 dimen search_progress_bar_size
+dimen slide_desc
+dimen slide_title
 dimen static_image_dot_radius_selected
 dimen static_image_dot_radius_unselected
 dimen static_image_dot_view_size
@@ -2126,6 +2146,8 @@ layout activity_live_barcode_kotlin
 layout activity_live_object
 layout activity_live_object_kotlin
 layout activity_main
+layout activity_preferance_manager
+layout activity_preference_manager
 layout activity_settings
 layout activity_static_object
 layout activity_static_object_kotlin
@@ -2242,6 +2264,9 @@ layout products_preview_card
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout slide_screen1
+layout slide_screen2
+layout slide_screen3
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_design_checkbox
@@ -2468,11 +2493,14 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string next
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string play_again
+string play_again_desc
 string pref_category_barcode_detection
 string pref_category_camera
 string pref_category_object_detection
@@ -2516,6 +2544,14 @@ string prompt_point_at_an_object
 string prompt_searching
 string search_menu_title
 string settings_title
+string skip
+string slide_1_desc
+string slide_1_title
+string slide_2_desc
+string slide_2_title
+string slide_3_desc
+string slide_3_title
+string start
 string static_image_card_no_result_subtitle
 string static_image_card_no_result_title
 string static_image_preview_card_subtitle
@@ -2524,6 +2560,7 @@ string static_image_prompt_detected_results
 string status_bar_notification_info_overflow
 string summary_collapsed_preference_list
 string tapack
+string title_activity_welcome
 string twitter_consumer_key
 string twitter_consumer_secret
 string v7_preference_off
@@ -2536,6 +2573,8 @@ style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
+style AppTheme_AppBarOverlay
+style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

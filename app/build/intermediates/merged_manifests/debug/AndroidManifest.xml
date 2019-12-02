@@ -9,7 +9,6 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="28" />
     <!-- package="com.google.firebase.ml.md" -->
-
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
@@ -33,6 +32,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.google.firebase.ml.md.PreferenceManager" />
+        <activity android:name="com.google.firebase.ml.md.PreferanceManager" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -50,30 +52,25 @@
         <activity
             android:name="com.google.firebase.ml.md.java.MainActivity"
             android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.google.firebase.ml.md.java.LiveObjectDetectionActivity"
             android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.google.firebase.ml.md.java.LiveBarcodeScanningActivity"
             android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.google.firebase.ml.md.java.StaticObjectDetectionActivity"
             android:exported="false"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.google.firebase.ml.md.java.settings.SettingsActivity"
             android:exported="false"
             android:label="@string/settings_title"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light" >
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
