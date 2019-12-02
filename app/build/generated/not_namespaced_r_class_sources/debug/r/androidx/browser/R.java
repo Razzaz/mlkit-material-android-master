@@ -106,11 +106,11 @@ public final class R {
         public static final int browser_actions_menu_item_text = 0x7f080056;
         public static final int browser_actions_menu_items = 0x7f080057;
         public static final int browser_actions_menu_view = 0x7f080058;
-        public static final int chronometer = 0x7f080072;
-        public static final int end = 0x7f08009d;
-        public static final int forever = 0x7f0800af;
-        public static final int icon = 0x7f0800bd;
-        public static final int icon_group = 0x7f0800bf;
+        public static final int chronometer = 0x7f080071;
+        public static final int end = 0x7f08009c;
+        public static final int forever = 0x7f0800ae;
+        public static final int icon = 0x7f0800bc;
+        public static final int icon_group = 0x7f0800be;
         public static final int info = 0x7f0800c3;
         public static final int italic = 0x7f0800c7;
         public static final int left = 0x7f0800cb;

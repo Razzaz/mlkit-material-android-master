@@ -42,11 +42,14 @@ import com.google.firebase.ml.md.java.MainActivity;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class EntryChoiceActivity extends AppCompatActivity {
 
     private static final String TAG = "EntryChoiceActivity";
-    private Button button;
+    //private Button button;
+    Timer timer;
 
         @Override
         protected void onCreate(@Nullable Bundle bundle) {
@@ -54,16 +57,21 @@ public class EntryChoiceActivity extends AppCompatActivity {
             AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
             setContentView(R.layout.activity_entry_choice);
 
-            button = findViewById(R.id.buttonGo);
-            button.setOnClickListener(new View.OnClickListener() {
+            timer = new Timer();
+            timer.schedule(new TimerTask() {
                 @Override
-                public void onClick(View v) {
+                public void run() {
                     openActivityMain();
                 }
-            });
-
+            }, 2000);
+//            button = findViewById(R.id.buttonGo);
+//            button.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    openActivityMain();
+//                }
+//            });
         }
-
         public void openActivityMain(){
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);

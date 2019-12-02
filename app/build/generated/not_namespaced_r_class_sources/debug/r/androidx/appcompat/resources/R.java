@@ -119,11 +119,11 @@ public final class R {
         public static final int actions = 0x7f08003d;
         public static final int async = 0x7f080046;
         public static final int blocking = 0x7f08004e;
-        public static final int chronometer = 0x7f080072;
-        public static final int dialog_button = 0x7f08008e;
-        public static final int forever = 0x7f0800af;
-        public static final int icon = 0x7f0800bd;
-        public static final int icon_group = 0x7f0800bf;
+        public static final int chronometer = 0x7f080071;
+        public static final int dialog_button = 0x7f08008d;
+        public static final int forever = 0x7f0800ae;
+        public static final int icon = 0x7f0800bc;
+        public static final int icon_group = 0x7f0800be;
         public static final int info = 0x7f0800c3;
         public static final int italic = 0x7f0800c7;
         public static final int line1 = 0x7f0800cd;

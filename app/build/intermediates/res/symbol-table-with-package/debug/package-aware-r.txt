@@ -1744,7 +1744,6 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_holder
-id buttonGo
 id buttonPanel
 id button_continue
 id button_create
@@ -1849,6 +1848,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id info
 id input_image_view
 id invisible

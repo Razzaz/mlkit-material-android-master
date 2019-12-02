@@ -1,23 +1,23 @@
 [
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_chip_state_list_anim.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\animator\\mtrl_chip_state_list_anim.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_fui_idp_button_background_twitter.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\e12e8430f74181c8bf4b329adb691d78\\jetified-firebase-ui-auth-4.3.1\\res\\drawable-v21\\fui_idp_button_background_twitter.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_chip_state_list_anim.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\animator\\mtrl_chip_state_list_anim.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_dialog.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout\\mtrl_picker_header_dialog.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\color\\test_mtrl_calendar_day.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_start_icon.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout\\design_text_input_start_icon.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_start_icon.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout\\design_text_input_start_icon.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_checked_to_unchecked_mtrl_animation.xml.flat",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material_anim.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable\\abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_month.xml.flat",
@@ -136,12 +136,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_fui_idp_button_background_phone.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\e12e8430f74181c8bf4b329adb691d78\\jetified-firebase-ui-auth-4.3.1\\res\\drawable-v21\\fui_idp_button_background_phone.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_fui_idp_button_background_phone.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\e12e8430f74181c8bf4b329adb691d78\\jetified-firebase-ui-auth-4.3.1\\res\\drawable-v21\\fui_idp_button_background_phone.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -164,16 +164,16 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color_test_mtrl_calendar_day_selected.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\color\\test_mtrl_calendar_day_selected.xml"
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\2a0197be5ad73d1240a80cbb379f47e5\\play-services-base-17.1.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color_test_mtrl_calendar_day_selected.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\color\\test_mtrl_calendar_day_selected.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
@@ -224,12 +224,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_ripple_color.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\color\\mtrl_btn_ripple_color.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_ripple_color.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\color\\mtrl_btn_ripple_color.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
@@ -264,12 +264,12 @@
         "source": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\src\\main\\res\\layout\\products_preview_card.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fui_email_link_trouble_signing_in_layout.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\e12e8430f74181c8bf4b329adb691d78\\jetified-firebase-ui-auth-4.3.1\\res\\layout\\fui_email_link_trouble_signing_in_layout.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_checked_mtrl_animation_interpolator_1.xml.flat",
@@ -312,24 +312,24 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\2a0197be5ad73d1240a80cbb379f47e5\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_mtrl_card_lowers_interpolator.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\anim\\mtrl_card_lowers_interpolator.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fui_idp_button_background_phone.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\e12e8430f74181c8bf4b329adb691d78\\jetified-firebase-ui-auth-4.3.1\\res\\drawable\\fui_idp_button_background_phone.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -456,12 +456,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -484,12 +484,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_category.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\bd58f75e6ca66e78b45415d4c859994a\\preference-1.0.0\\res\\layout\\preference_category.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_fast_out_slow_in.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\interpolator\\fast_out_slow_in.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_category.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\bd58f75e6ca66e78b45415d4c859994a\\preference-1.0.0\\res\\layout\\preference_category.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
@@ -512,32 +512,32 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_fullscreen.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout\\mtrl_picker_header_fullscreen.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_fui_slide_out_left.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\e12e8430f74181c8bf4b329adb691d78\\jetified-firebase-ui-auth-4.3.1\\res\\anim\\fui_slide_out_left.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_without_line_height.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout\\text_view_without_line_height.xml"
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_fullscreen.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout\\mtrl_picker_header_fullscreen.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fui_email_link_sign_in_layout.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\e12e8430f74181c8bf4b329adb691d78\\jetified-firebase-ui-auth-4.3.1\\res\\layout\\fui_email_link_sign_in_layout.xml"
     },
     {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_without_line_height.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout\\text_view_without_line_height.xml"
+    },
+    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_state_list_anim.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\animator\\mtrl_btn_state_list_anim.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_state_list_anim.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\animator\\mtrl_btn_state_list_anim.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_choice_chip_text_color.xml.flat",
@@ -724,12 +724,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\e12e8430f74181c8bf4b329adb691d78\\jetified-firebase-ui-auth-4.3.1\\res\\drawable\\fui_ic_mail_white_24dp.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\2a0197be5ad73d1240a80cbb379f47e5\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -792,12 +792,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\color\\mtrl_filled_background_color.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_widget_switch.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\bd58f75e6ca66e78b45415d4c859994a\\preference-1.0.0\\res\\layout\\preference_widget_switch.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_widget_switch.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\bd58f75e6ca66e78b45415d4c859994a\\preference-1.0.0\\res\\layout\\preference_widget_switch.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
@@ -864,12 +864,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -892,12 +892,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout-land\\mtrl_picker_header_dialog.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector_colored.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\color\\mtrl_tabs_icon_color_selector_colored.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\88621b94978d623c762d718ff1644153\\media-1.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector_colored.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\color\\mtrl_tabs_icon_color_selector_colored.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
@@ -1044,32 +1044,32 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\2a0197be5ad73d1240a80cbb379f47e5\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_radio_on_mtrl.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable\\btn_radio_on_mtrl.xml"
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_preference_dropdown_material.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\bd58f75e6ca66e78b45415d4c859994a\\preference-1.0.0\\res\\layout-v17\\preference_dropdown_material.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_radio_on_mtrl.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable\\btn_radio_on_mtrl.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\2a0197be5ad73d1240a80cbb379f47e5\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-v21\\abc_list_divider_material.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\8c97ed59a412e7cdfe8c5defc5d885b8\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\2a0197be5ad73d1240a80cbb379f47e5\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -1128,12 +1128,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\anim\\btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_bottom_prompt_chip_enter.xml.flat",
-        "source": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\src\\main\\res\\animator\\bottom_prompt_chip_enter.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_mtrl_popupmenu_background_dark.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\drawable-v23\\mtrl_popupmenu_background_dark.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_bottom_prompt_chip_enter.xml.flat",
+        "source": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\src\\main\\res\\animator\\bottom_prompt_chip_enter.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
@@ -1412,12 +1412,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1464,12 +1464,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\8c97ed59a412e7cdfe8c5defc5d885b8\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_circle.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_action_chip.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\layout\\test_action_chip.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_circle.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -1480,12 +1480,12 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_off_mtrl_ring_outer_path_animation.xml.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\anim\\btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
-    },
-    {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clear_black_24dp.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\drawable\\ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_off_mtrl_ring_outer_path_animation.xml.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\anim\\btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_out.xml.flat",
@@ -1508,16 +1508,16 @@
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_card_view_foreground.xml.flat",
         "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\045c3214eaf977da0e68c34bd0e8852e\\material-1.1.0-beta01\\res\\color\\mtrl_card_view_foreground.xml"
     },
     {
-        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
-        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+        "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\a91a0ad3d15fcb104f8add1fc605e041\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
