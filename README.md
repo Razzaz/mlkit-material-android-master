@@ -20,7 +20,7 @@ that has been user tested for the specific use cases that are covered:
 
 * Clone this repo locally
   ```
-  git clone https://github.com/firebase/mlkit-material-android
+  git clone https://github.com/Razzaz/mlkit-material-android-master
   ```
 * [Create a Firebase project in the Firebase console, if you don't already have one](https://firebase.google.com/docs/android/setup)
 * Add a new Android app into your Firebase project with package name com.google.firebase.ml.md
@@ -29,36 +29,17 @@ that has been user tested for the specific use cases that are covered:
 
 ## How to use the app
 
-This app supports two usage scenarios: Live Camera and Static Image.
+This app supports usage scenarios: Live Camera Barcode Scanning Activity.
 
 ### Live Camera scenario
 
-It uses the camera preview as input and contains two workflow: object detection & visual search, 
-and barcode detection. There's also a Settings page to allow you to configure several options:
-- Camera
-  - Specify the preview size of rear camera manually (Default size is chose appropriately based on screen size)
-- Object detection
-  - Whether or not to enable multiple objects and coarse classification
-- Product search
-  - Whether or not to enable auto search: if enabled, search request will be fired automatically 
-    once object is detected and confirmed, otherwise a search button will appear to trigger search manually
-  - Required time that the auto-detected object needs to be focused for being regarded as user-confirmed
+It uses the camera preview as input and contains two workflow: barcode detection. There's also a Settings page to allow you to configure several options:
+
 - Barcode detection
   - Barcode aiming frame size
   - Barcode size check: will prompt "Move closer" if the current detected barcode size is not big enough
   - Delay loading result: to simulate the case where the detected barcode requires further 
     processing before displaying result.
-
-### Static Image scenario
-
-It'll prompt to select an image from the Image Picker, detect objects in the picked image, 
-and then perform visual search on them. There're well designed UI components (overlay dots, 
-card carousel etc.) to indicate the detected objects and search results.
-
-**Note** that the visual search functionality here is mock since no real search backend has set up 
-for this repository, but it should be easy to hook up with your own search service 
-(e.g. [Product Search](https://cloud.google.com/vision/product-search/docs)) by only replacing the 
-[SearchEngine](./app/src/main/java/com/google/firebase/ml/md/java/productsearch/SearchEngine.java) class implementation.
 
 ## License
 © Google, 2019. Licensed under an [Apache-2](./LICENSE) license.
