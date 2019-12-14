@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:paddingTop="@dimen/barcode_bottom_sheet_padding_vertical"
     android:paddingBottom="@dimen/barcode_bottom_sheet_padding_vertical"
-    android:background="@color/white"
+    android:background="@color/black"
     android:orientation="vertical">
 
   <androidx.recyclerview.widget.RecyclerView

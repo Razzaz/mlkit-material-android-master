@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#dfe0e0">
+    android:background="#dfe0e0"
+    tools:context=".java.MainActivity">
 
-  <TextView
-      android:layout_width="match_parent"
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/nav_view"
+      android:layout_width="0dp"
       android:layout_height="wrap_content"
-      android:paddingTop="@dimen/home_page_title_padding_top"
-      android:paddingBottom="@dimen/home_page_title_padding_bottom"
-      android:fontFamily="google-sans"
-      android:gravity="center_horizontal"
-      android:text="@string/app_name"
-      android:textColor="#00B896"
-      android:textSize="@dimen/home_page_title_size"/>
+      android:layout_marginStart="0dp"
+      android:layout_marginEnd="0dp"
+      android:background="?android:attr/windowBackground"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:menu="@menu/bottom_nav_menu" >
 
-  <androidx.recyclerview.widget.RecyclerView
-      android:id="@+id/mode_recycler_view"
+  </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+  <fragment
+      android:id="@+id/nav_host_fragment"
+      android:name="androidx.navigation.fragment.NavHostFragment"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:scrollbars="vertical"
-      android:textColor="#00B896"/>
+      app:defaultNavHost="true"
+      app:layout_constraintBottom_toTopOf="@id/nav_view"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:navGraph="@navigation/mobile_navigation" />
 
-</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

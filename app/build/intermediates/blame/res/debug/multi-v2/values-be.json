@@ -4,6 +4,23 @@
             "outputFile": "D:\\tapak\\v0.0.1\\mlkit-material-android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\7ccdba4900529eecdd10b4a5e0f25584\\jetified-navigation-ui-2.1.0\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,125",
+                        "endOffsets": "159,285"
+                    },
+                    "to": {
+                        "startLines": "48,49",
+                        "startColumns": "4,4",
+                        "startOffsets": "5651,5760",
+                        "endColumns": "108,125",
+                        "endOffsets": "5755,5881"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Razzaz\\.gradle\\caches\\transforms-2\\files-2.1\\8c97ed59a412e7cdfe8c5defc5d885b8\\core-1.1.0\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2",
@@ -13,11 +30,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "49",
+                        "startLines": "51",
                         "startColumns": "4",
-                        "startOffsets": "5732",
+                        "startOffsets": "5967",
                         "endColumns": "100",
-                        "endOffsets": "5828"
+                        "endOffsets": "6063"
                     }
                 },
                 {
@@ -30,11 +47,11 @@
                         "endOffsets": "195,364,446,524"
                     },
                     "to": {
-                        "startLines": "47,50,51,52",
+                        "startLines": "47,52,53,54",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "5556,5833,6002,6084",
+                        "startOffsets": "5556,6068,6237,6319",
                         "endColumns": "94,168,81,77",
-                        "endOffsets": "5646,5997,6079,6157"
+                        "endOffsets": "5646,6232,6314,6392"
                     }
                 },
                 {
@@ -81,11 +98,11 @@
                         "endOffsets": "220,323,439,525,630,749,829,907,999,1092,1187,1281,1377,1471,1567,1662,1754,1846,1926,2032,2137,2235,2343,2449,2557,2730,2830,2911"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,48",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,50",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,225,328,444,530,635,754,834,912,1004,1097,1192,1286,1382,1476,1572,1667,1759,1851,1931,2037,2142,2240,2348,2454,2562,2735,5651",
+                        "startOffsets": "105,225,328,444,530,635,754,834,912,1004,1097,1192,1286,1382,1476,1572,1667,1759,1851,1931,2037,2142,2240,2348,2454,2562,2735,5886",
                         "endColumns": "119,102,115,85,104,118,79,77,91,92,94,93,95,93,95,94,91,91,79,105,104,97,107,105,107,172,99,80",
-                        "endOffsets": "220,323,439,525,630,749,829,907,999,1092,1187,1281,1377,1471,1567,1662,1754,1846,1926,2032,2137,2235,2343,2449,2557,2730,2830,5727"
+                        "endOffsets": "220,323,439,525,630,749,829,907,999,1092,1187,1281,1377,1471,1567,1662,1754,1846,1926,2032,2137,2235,2343,2449,2557,2730,2830,5962"
                     }
                 }
             ]

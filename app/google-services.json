@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:756823254526:android:516c9ee6ed1cc2f158ccaf",
+        "android_client_info": {
+          "package_name": "com.example.tapackauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756823254526-4i18dq4lk8kl6dbk4trki832v0qi86ef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1kJ36jPyzcN1VmFUluG_AHFQVXGz0sOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756823254526-4i18dq4lk8kl6dbk4trki832v0qi86ef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:756823254526:android:0291c54739a02c2358ccaf",
         "android_client_info": {
           "package_name": "com.google.firebase.ml.md"

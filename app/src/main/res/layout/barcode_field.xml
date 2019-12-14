@@ -6,7 +6,7 @@
     android:paddingBottom="@dimen/barcode_field_padding_vertical"
     android:paddingStart="@dimen/barcode_field_padding_horizontal"
     android:paddingEnd="@dimen/barcode_field_padding_horizontal"
-    android:background="@color/white">
+    android:background="@color/black">
 
   <TextView
       android:id="@+id/barcode_field_value"
@@ -14,7 +14,7 @@
       android:layout_height="wrap_content"
       android:layout_marginTop="@dimen/barcode_field_padding_vertical"
       android:padding="@dimen/barcode_field_value_padding"
-      android:background="@drawable/barcode_field_box"
+      android:background="@color/black"
       android:textColor="@color/barcode_field_value"
       android:textSize="@dimen/barcode_field_value_size"/>
 
@@ -24,8 +24,8 @@
       android:layout_height="wrap_content"
       android:layout_marginStart="@dimen/barcode_field_value_padding"
       android:padding="@dimen/barcode_field_label_padding"
-      android:background="@color/white"
-      android:textColor="@color/black"
+      android:background="@color/black"
+      android:textColor="@color/white"
       android:textSize="@dimen/barcode_field_label_size"/>
 
 </FrameLayout>

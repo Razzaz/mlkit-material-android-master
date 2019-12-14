@@ -33,9 +33,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.google.firebase.ml.md.PreferenceManager" />
-        <activity android:name="com.google.firebase.ml.md.PreferanceManager" />
-
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -43,7 +40,8 @@
         <activity
             android:name="com.google.firebase.ml.md.EntryChoiceActivity"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -55,16 +53,15 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.google.firebase.ml.md.java.LiveObjectDetectionActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:name="com.google.firebase.ml.md.java.login"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.google.firebase.ml.md.java.register"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name="com.google.firebase.ml.md.java.LiveBarcodeScanningActivity"
             android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.google.firebase.ml.md.java.StaticObjectDetectionActivity"
-            android:exported="false"
+            android:label=""
             android:screenOrientation="portrait" />
         <activity
             android:name="com.google.firebase.ml.md.java.settings.SettingsActivity"
@@ -85,6 +82,9 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"

@@ -17,8 +17,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".PreferenceManager"></activity>
-        <activity android:name=".PreferanceManager" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -27,7 +25,9 @@
         <activity
             android:name=".EntryChoiceActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,18 +38,23 @@
             android:name=".java.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
+
         <activity
-            android:name=".java.LiveObjectDetectionActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:name=".java.login"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            />
+
+        <activity
+            android:name=".java.register"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            />
+
         <activity
             android:name=".java.LiveBarcodeScanningActivity"
+            android:label=""
             android:exported="false"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".java.StaticObjectDetectionActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name=".java.settings.SettingsActivity"
             android:exported="false"

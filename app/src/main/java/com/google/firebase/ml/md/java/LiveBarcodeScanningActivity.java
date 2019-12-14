@@ -36,20 +36,22 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.chip.Chip;
 import com.google.common.base.Objects;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.ml.md.R;
-import com.google.firebase.ml.md.java.camera.GraphicOverlay;
-import com.google.firebase.ml.md.java.camera.WorkflowModel;
-import com.google.firebase.ml.md.java.camera.WorkflowModel.WorkflowState;
-import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode;
 import com.google.firebase.ml.md.java.barcodedetection.BarcodeField;
 import com.google.firebase.ml.md.java.barcodedetection.BarcodeProcessor;
 import com.google.firebase.ml.md.java.barcodedetection.BarcodeResultFragment;
 import com.google.firebase.ml.md.java.camera.CameraSource;
 import com.google.firebase.ml.md.java.camera.CameraSourcePreview;
+import com.google.firebase.ml.md.java.camera.GraphicOverlay;
+import com.google.firebase.ml.md.java.camera.WorkflowModel;
+import com.google.firebase.ml.md.java.camera.WorkflowModel.WorkflowState;
 import com.google.firebase.ml.md.java.settings.SettingsActivity;
+import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -60,13 +62,24 @@ public class LiveBarcodeScanningActivity extends AppCompatActivity implements On
 
   private static final String TAG = "LiveBarcodeActivity";
 
+  private static LiveBarcodeScanningActivity instance;
+  public static String rawValue;
+  public static String nameText;
+  public static String locationText;
   private FirebaseFirestore db = FirebaseFirestore.getInstance();
-  public void addToFirestore(String value) {
+  public static String userID;
+  FirebaseAuth fAuth;
+
+  public void addToFirestore(String value, String name, String location) {
     Map<String, Object> user = new HashMap<>();
-    user.put("result", value);
+    // user.put("result", value);
+    user.put("kurir", name);
+    user.put("lokasi", location);
+    user.put("barang_id", value);
+
 
     // Add a new document with a generated ID
-    db.collection("users").document("ridhogani")
+    db.collection("goodsStatus").document(value)
             .set(user)
             .addOnSuccessListener(new OnSuccessListener<Void>() {
               @Override
@@ -80,25 +93,6 @@ public class LiveBarcodeScanningActivity extends AppCompatActivity implements On
                 Log.w(TAG, "Error adding document", e);
               }
             });
-  }
-  public void getDocument() {
-    DocumentReference docRef = db.collection("users").document("tapackData");
-    docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-      @Override
-      public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-        if (task.isSuccessful()) {
-          DocumentSnapshot document = task.getResult();
-          if (document.exists()) {
-            Log.d(TAG, "DocumentSnapshot data: " + document.getData());
-            Toast.makeText(LiveBarcodeScanningActivity.this, "Package has gone!", Toast.LENGTH_SHORT).show();
-          } else {
-            Log.d(TAG, "No such document");
-          }
-        } else {
-          Log.d(TAG, "get failed with ", task.getException());
-        }
-      }
-    });
   }
 
   private CameraSource cameraSource;
@@ -114,8 +108,10 @@ public class LiveBarcodeScanningActivity extends AppCompatActivity implements On
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-
     setContentView(R.layout.activity_live_barcode);
+
+    fAuth = FirebaseAuth.getInstance();
+
     preview = findViewById(R.id.camera_preview);
     graphicOverlay = findViewById(R.id.camera_preview_graphic_overlay);
     graphicOverlay.setOnClickListener(this);
@@ -133,6 +129,55 @@ public class LiveBarcodeScanningActivity extends AppCompatActivity implements On
     settingsButton.setOnClickListener(this);
 
     setUpWorkflowModel();
+
+    instance = this;
+  }
+
+  public static LiveBarcodeScanningActivity getInstance() {
+    return instance;
+  }
+
+  public void getDocument(String value) {
+    DocumentReference docRef = db.collection("goodsStatus").document(value);
+    docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+      @Override
+      public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+        if (task.isSuccessful()) {
+          DocumentSnapshot document = task.getResult();
+          if (document.exists()) {
+            String kurirtext = document.getString("kurir");
+            Log.d(TAG, "DocumentSnapshot data: " + document.getData());
+            Toast.makeText(LiveBarcodeScanningActivity.this, kurirtext, Toast.LENGTH_SHORT).show();
+          } else {
+            Log.d(TAG, "No such  document");
+          }
+        } else {
+          Log.d(TAG, "get failed with ", task.getException());
+        }
+      }
+    });
+  }
+
+  public void getProfile(String value) {
+    DocumentReference docRef = db.collection("Users").document(value);
+    docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+      @Override
+      public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+        if (task.isSuccessful()) {
+          DocumentSnapshot document = task.getResult();
+          if (document.exists()) {
+            Log.d(TAG, "DocumentSnapshot data profile: " + document.getData());
+            nameText = document.getString("Name");
+            locationText = document.getString("Location");
+            //Toast.makeText(LiveBarcodeScanningActivity.this, nameText+" "+locationText, Toast.LENGTH_SHORT).show();
+          } else {
+            Log.d(TAG, "No such  document");
+          }
+        } else {
+          Log.d(TAG, "get failed with ", task.getException());
+        }
+      }
+    });
   }
 
   @Override
@@ -266,11 +311,12 @@ public class LiveBarcodeScanningActivity extends AppCompatActivity implements On
         barcode -> {
           if (barcode != null) {
             ArrayList<BarcodeField> barcodeFieldList = new ArrayList<>();
-            String rawValue = barcode.getRawValue();
-
-            addToFirestore(barcode.getRawValue());
-            getDocument();
-            barcodeFieldList.add(new BarcodeField("Raw Value", rawValue));
+            rawValue = barcode.getRawValue();
+            userID = fAuth.getCurrentUser().getUid();
+            //getProfile(userID);
+            addToFirestore(barcode.getRawValue(), nameText, locationText);
+            getDocument(rawValue);
+            barcodeFieldList.add(new BarcodeField("Goods ID", rawValue));
             int valueType = barcode.getValueType();
             switch (valueType) {
               case FirebaseVisionBarcode.TYPE_WIFI:

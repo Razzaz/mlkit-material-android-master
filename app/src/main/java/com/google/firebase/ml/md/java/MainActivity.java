@@ -16,58 +16,103 @@
 
 package com.google.firebase.ml.md.java;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
 
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.ml.md.R;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /** Entry activity to select the detection mode. */
 public class MainActivity extends AppCompatActivity {
 
-  private enum DetectionMode {
-    //ODT_LIVE(R.string.mode_odt_live_title, R.string.mode_odt_live_subtitle),
-    //ODT_STATIC(R.string.mode_odt_static_title, R.string.mode_odt_static_subtitle),
-    BARCODE_LIVE(R.string.mode_barcode_live_title, R.string.mode_barcode_live_subtitle);
-
-    private final int titleResId;
-    private final int subtitleResId;
-
-    DetectionMode(int titleResId, int subtitleResId) {
-      this.titleResId = titleResId;
-      this.subtitleResId = subtitleResId;
-    }
-  }
+  private static final String TAG = "MainActivity";
+  private Button button;
+  private TextView simpleTextView;
+  private FirebaseFirestore db = FirebaseFirestore.getInstance();
+  String userID;
+  FirebaseAuth fAuth;
 
   @Override
-  protected void onCreate(@Nullable Bundle bundle) {
-    super.onCreate(bundle);
-
-    AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+  protected void onCreate(@Nullable Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+    LiveBarcodeScanningActivity lbsa = new LiveBarcodeScanningActivity();
+    userID= FirebaseAuth.getInstance().getCurrentUser().getUid();
+    lbsa.getProfile(userID);
 
-    RecyclerView modeRecyclerView = findViewById(R.id.mode_recycler_view);
-    modeRecyclerView.setHasFixedSize(true);
-    modeRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-    modeRecyclerView.setAdapter(new ModeItemAdapter(DetectionMode.values()));
+    BottomNavigationView navView = findViewById(R.id.nav_view);
+    // Passing each menu ID as a set of Ids because each
+    // menu should be considered as top level destinations.
+    AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
+            R.id.navigation_home, R.id.navigation_scan, R.id.navigation_profile)
+            .build();
+    NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+    NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+    NavigationUI.setupWithNavController(navView, navController);
+  }
+
+  public void getDocument() {
+    DocumentReference docRef = db.collection("goodsStatus").document(LiveBarcodeScanningActivity.rawValue);
+    docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+      @Override
+      public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+        if (task.isSuccessful()) {
+          DocumentSnapshot document = task.getResult();
+          if (document.exists()) {
+            Log.d(TAG, "DocumentSnapshot data WOY: " + document.getData());
+            String kurirtext = document.getString("kurir");
+            simpleTextView.setText(LiveBarcodeScanningActivity.rawValue + kurirtext);
+          } else {
+            Log.d(TAG, "No such  document");
+          }
+        } else {
+          Log.d(TAG, "get failed with ", task.getException());
+        }
+      }
+    });
+  }
+
+  public void getProfile() {
+    userID=fAuth.getCurrentUser().getUid();
+    Log.d(TAG, "UserID : " + userID);
+    DocumentReference docRef = db.collection("Users").document(userID);
+    docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+      @Override
+      public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+        if (task.isSuccessful()) {
+          DocumentSnapshot document = task.getResult();
+          if (document.exists()) {
+            Log.d(TAG, "DocumentSnapshot data profile: " + document.getData());
+            String nameText = document.getString("Name");
+            String locationText = document.getString("Location");
+            Toast.makeText(MainActivity.this, nameText, Toast.LENGTH_SHORT).show();
+          } else {
+            Log.d(TAG, "No such  document");
+          }
+        } else {
+          Log.d(TAG, "get failed with ", task.getException());
+        }
+      }
+    });
   }
 
   @Override
@@ -78,69 +123,15 @@ public class MainActivity extends AppCompatActivity {
     }
   }
 
-  @Override
-  protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-    if (requestCode == Utils.REQUEST_CODE_PHOTO_LIBRARY
-        && resultCode == Activity.RESULT_OK
-        && data != null) {
-      Intent intent = new Intent(this, StaticObjectDetectionActivity.class);
-      intent.setData(data.getData());
-      startActivity(intent);
-    } else {
-      super.onActivityResult(requestCode, resultCode, data);
-    }
+  public void openLiveBarcodeScanningActivity(){
+    Intent intent = new Intent(this, LiveBarcodeScanningActivity.class);
+    startActivity(intent);
   }
 
-  private class ModeItemAdapter extends RecyclerView.Adapter<ModeItemAdapter.ModeItemViewHolder> {
-
-    private final DetectionMode[] detectionModes;
-
-    ModeItemAdapter(DetectionMode[] detectionModes) {
-      this.detectionModes = detectionModes;
-    }
-
-    @NonNull
-    @Override
-    public ModeItemViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-      return new ModeItemViewHolder(
-          LayoutInflater.from(parent.getContext())
-              .inflate(R.layout.detection_mode_item, parent, false));
-    }
-
-    @Override
-    public void onBindViewHolder(@NonNull ModeItemViewHolder modeItemViewHolder, int position) {
-      modeItemViewHolder.bindDetectionMode(detectionModes[position]);
-    }
-
-    @Override
-    public int getItemCount() {
-      return detectionModes.length;
-    }
-
-    private class ModeItemViewHolder extends RecyclerView.ViewHolder {
-
-      private final TextView titleView;
-      private final TextView subtitleView;
-
-      ModeItemViewHolder(@NonNull View view) {
-        super(view);
-        titleView = view.findViewById(R.id.mode_title);
-        subtitleView = view.findViewById(R.id.mode_subtitle);
-      }
-
-      void bindDetectionMode(DetectionMode detectionMode) {
-        titleView.setText(detectionMode.titleResId);
-        subtitleView.setText(detectionMode.subtitleResId);
-        itemView.setOnClickListener(
-            view -> {
-              Activity activity = MainActivity.this;
-              switch (detectionMode) {
-                case BARCODE_LIVE:
-                  activity.startActivity(new Intent(activity, LiveBarcodeScanningActivity.class));
-                  break;
-              }
-            });
-      }
-    }
+  public void logout(View view){
+    FirebaseAuth.getInstance().signOut();
+    startActivity(new Intent(getApplicationContext(), login.class));
+    finish();
   }
+
 }
